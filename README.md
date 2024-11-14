@@ -11,36 +11,36 @@ En este curso, vamos a desarmar una de las cajas negras más usadas y relevantes
 En esta primera clase, vamos a describir el rol del machine learning en el contexto más grande de la inteligencia artificial, y a entender cómo funciona este método aparentemente mágico de programar. Vamos a describir sus ventajas y revelar sus peligros. Con ejemplos prácticos, vamos a entender el funcionamiento de los algoritmos de machine learning más atractivos y versátiles, las redes neuronales artificiales.
 
 **Contenidos:**
-Inteligencia artificial como un campo interdisciplinario amplio.
-Aprendizaje automático. Las tareas fundamentales de ML. 
-Aprendizaje supervisado. Clasificación y regresión.
-Conjunto de entrenamiento y conjunto de evaluación.
-Redes neuronales.
-Sobreajuste.
-Ejemplo de visión de computadora.
+* Inteligencia artificial como un campo interdisciplinario amplio.
+* Aprendizaje automático. Las tareas fundamentales de ML.
+* Aprendizaje supervisado. Clasificación y regresión.
+* Conjunto de entrenamiento y conjunto de evaluación.
+* Redes neuronales.
+* Sobreajuste.
+* Ejemplo de visión de computadora.
 
 ## Clase 2. Datos sin fin. Procesamiento de datos secuenciales.
 Hay gente que cuando empieza a hablar, no para. Si quisiéramos registrar ese discurso, y de alguna forma trabajarlo con un algoritmo de IA, nos enfrentaríamos con un problema diferente al de la clase pasada. ¿Cómo podemos trabajar con datos que no tienen una extensión predefinida? Datos que, para colmo, tienen una dependencia temporal (no es lo mismo decir "comer para vivir" que "vivir para comer"). Este problema está en la base de una rama de la Inteligencia Artificial que se llama procesamiento del lenguaje natural, y que busca dotar a las computadoras de la habilidad para, justamente, entender el lenguaje.
 En esta clase, vamos a sumergirnos en el Procesamiento del Lenguaje Natural y estudiar las distintas tareas que podemos resolver con una computadora. Vamos a  convertir las palabras en objetos más comprensibles para nuestras amigas las máquinas y veremos cómo al hacerlo de manera astuta estamos ya recogiendo parte de la comprensión con la que queremos inducir a una máquina.  Pero también generando sesgos que se empiezan a colar en los algoritmos. Finalmente, vamos a entender cómo reconvertir nuestras redes neuronales de la última clase para que trabajen con datos secuenciales. Para terminar, vamos a componer un soneto. 
 
 **Contenidos:**
-Datos secuenciales. Series temporales y texto. Problemas vec2vec, seq2vec, seq2seq
-Procesamiento del lenguaje natural. Traducción / Análisis de sentimientos / etc.
-Tokenización y embeddings (word2vec)
-Redes neuronales recurrentes (RNN). LSTM.
-Ejemplo de generación de texto shakespeariano.
-Ejemplo de Análisis de sentimientos
-Problemas de memoria y de tratamiento de series largas
+* Datos secuenciales. Series temporales y texto. Problemas vec2vec, seq2vec, seq2seq
+* Procesamiento del lenguaje natural. Traducción / Análisis de sentimientos / etc.
+* Tokenización y embeddings (word2vec)
+* Redes neuronales recurrentes (RNN). LSTM.
+* Ejemplo de generación de texto shakespeariano.
+* Ejemplo de Análisis de sentimientos
+* Problemas de memoria y de tratamiento de series largas
 
 ## Clase 3. "Transfórmense y avancen". La revolución de los Transformers.
 Hasta 2017, las IA que se usaban para procesar lenguaje eran como el protagonista de la película Memento, de Christopher Nolan. Podías tener un intercambio totalmente razonable, siempre y cuando la charla no se extendiera mucho. Después de eso, se empezaba a perder coherencia ("I take it I've told you about my condition"). Así, una red recurrente o LSTM, como las que vimos en la clase anterior, no podía "leer" frases muy largas y ni pensar en trabajar con documentos enteros. Pero esto cambió con la aparición de los mecanismos de atención y de la arquitectura basada exclusivamente en este método: los Transformers. Comenzó así una revolución en el campo del procesamiento del lenguaje natural y se allanó el terreno para los chatbots y aplicaciones que tenemos hoy en día.
 En esta clase, vamos a presentar estas nuevas formas de procesar la información, vamos a entender cómo logran estos algoritmos conservar la memoria de lo que leen (la respuesta te sorprenderá). Además, presentaremos los grandes modelos de Lenguaje (LLMs) basados en esta tecnología que están en la base de los chatbots.
 
 **Contenidos:**
-El mecanismo de atención para aumentar la memoria de las RNN.
-Attention is all you need. La revolución de los Transformers.
-Grandes modelos de lenguaje. GPT, Llama. 
-Ejemplos de multitareas con LLMs.
+* El mecanismo de atención para aumentar la memoria de las RNN.
+* Attention is all you need. La revolución de los Transformers.
+* Grandes modelos de lenguaje. GPT, Llama.
+* Ejemplos de multitareas con LLMs.
 
 ## Clase 4. La caja negra se abre.
 Abrimos la caja negra de un chatbot. Empezamos a sacar pedazos y encontramos que lo más grande e importante que hay en la caja son los Transformers. Pero no solo está eso. Hay una serie de interfaces y capas que hacen que el chatbot se comporte… bueno, como un chatbot. Su comportamiento de asistente amistoso y gentil, siempre listo para darnos una mano, viene dado por una serie de especializaciones y capas adicionales que tenemos que agregarle a los grandes modelos de lenguaje que vimos la semana pasada.
@@ -48,8 +48,8 @@ En esta clase, vamos a estudiar qué es lo que hace de un chatbot un chatbot. Va
 Al finalizar, deberíamos ser capaces de volver a poner todas las piezas en su lugar, cerrar la caja negra, darle al interruptor de encendido y tener nuestro propio chatbot.
 
 **Contenidos:**
-Componentes de un chatbot
-Modelos pre-entrenados y personalización
-Peligros y limitaciones
-Mejorando la fiabilidad de las respuestas
-Construyendo tu propio chatbot
+* Componentes de un chatbot
+* Modelos pre-entrenados y personalización
+* Peligros y limitaciones
+* Mejorando la fiabilidad de las respuestas
+* Construyendo tu propio chatbot
